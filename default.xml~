@@ -24,7 +24,6 @@
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
   <project path="bionic" name="CyanogenMod/android_bionic" />
-  <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
   <project path="cts" name="platform/cts" remote="aosp" revision="jb-mr1-release" />
@@ -357,7 +356,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="jb-mr1-release" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="jb-mr1-release" />
 
-  <project path="sdk" name="platform/sdk" remote="aosp" revision="jb-mr1-release" />
+  <project path="sdk" name="CyanogenMod/android_sdk" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
   <project path="system/core" name="CyanogenMod/android_system_core" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" />
@@ -374,5 +373,13 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
+
+  <project path="device/malata/smba1002" name="redeyedjedi/android_device_smba1002" remote="github" revision="CM-10.1" />
+  <project path="device/malata/smba_common" name="redeyedjedi/android_device_smba_common" remote="github" revision="CM-10.1" />
+  <project path="vendor/drh" name="redeyedjedi/vendor_drh" remote="github" revision="CM-10.1" />
+  <project path="vendor/drh" name="redeyedjedi/vendor_cm" remote="github" revision="CM-10.1" />
+  <project path="vendor/malata" name="redeyedjedi/vendor_malata" remote="github" revision="CM-10.1" />
   <project path="kernel/malata/smba1002" name="fosser2/android-tegra-nv-3.1.10-rel-15r7" remote="github" revision="experimental" />
+  
+
 </manifest>
