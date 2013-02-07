@@ -376,7 +376,6 @@
 
   <project path="device/malata/smba1002" name="redeyedjedi/android_device_smba1002" remote="github" revision="CM-10.1" />
   <project path="device/malata/smba_common" name="redeyedjedi/android_device_smba_common" remote="github" revision="CM-10.1" />
-  <project path="vendor/drh" name="redeyedjedi/vendor_drh" remote="github" revision="CM-10.1" />
   <project path="vendor/malata" name="redeyedjedi/vendor_malata" remote="github" revision="CM-10.1" />
   <project path="kernel/malata/smba1002" name="fosser2/android-tegra-nv-3.1.10-rel-15r7" remote="github" revision="experimental" />
 
